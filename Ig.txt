@@ -1,0 +1,24 @@
+Bias represents the error that arises when a model lacks the complexity to accurately represent the underlying patterns within the data.
+
+High bias indicates that the model oversimplifies, fails to identify crucial patterns, and underfits the data. Conversely, low bias suggests that the model effectively captures patterns and closely approximates the true values.
+
+For instance, a neural network with an insufficient number of layers or neurons may struggle to discern intricate patterns, leading to consistently inaccurate outputs. This phenomenon is commonly referred to as underfitting.
+
+Strategies for Mitigating Bias:
+To reduce bias in models, consider the following approaches:
+• Employ More Complex Models: Utilize models capable of capturing non-linear relationships, such as neural networks or ensemble methods.
+• Incorporate Relevant Features: Augment the training data with additional informative features to enhance the model's ability to identify underlying patterns.
+• Adjust Regularization Strength: Decrease regularization to afford the model greater flexibility in fitting the data.
+
+Variance occurs when a model exhibits excessive sensitivity to the training data, leading to the capture of noise within the data. Consequently, it performs poorly when making predictions on new, unseen data.
+
+High variance implies that the model is overly sensitive to minor fluctuations and may overfit. In contrast, low variance indicates a more stable model, though it might occasionally overlook certain patterns.
+
+For example, a deep decision tree that perfectly memorizes the training data but performs inadequately on new data demonstrates high variance, a condition known as overfitting.
+
+Strategies for Mitigating Variance:
+To reduce variance, consider these methods:
+• Simplify the Model: Opt for a simpler model or prune excessively deep decision trees to prevent overfitting.
+• Increase Training Data: Acquire additional data to stabilize learning and improve the model's generalization capabilities.
+• Apply Regularization: Implement L1 or L2 regularization to constrain model complexity and avert overfitting.
+• Utilize Ensemble Methods: Employ techniques such as bagging or random forests to combine multiple models and achieve a balanced bias-variance trade-off.
